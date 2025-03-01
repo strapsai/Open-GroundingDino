@@ -200,6 +200,8 @@ if __name__ == "__main__":
     boxes_filt, pred_phrases = get_grounding_output(
         model, image, text_prompt, box_threshold, text_threshold, cpu_only=args.cpu_only, token_spans=token_spans
     )
+    print(f'boxes_filt is {boxes_filt}')
+    print(f'pred_phrases is {pred_phrases}')
 
     # visualize pred
     size = image_pil.size

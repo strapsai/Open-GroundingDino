@@ -122,6 +122,7 @@ def main(args):
             json.dump(vars(args), f, indent=2)
         logger.info("Full config saved to {}".format(save_json_path))
 
+    print(f"Loading dataset JSON from: {args.datasets}")  # Debugging
     with open(args.datasets) as f:
         dataset_meta = json.load(f)
     if args.use_coco_eval:
