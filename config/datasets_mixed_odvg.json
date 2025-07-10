@@ -1,16 +1,16 @@
 {
   "train": [
     {
-      "root": "/ocean/projects/cis240120p/emilian/triage_data/f8_v1/train/images",
-      "anno": "/ocean/projects/cis240120p/emilian/triage_data/f8_v1/train/f8_odvg_smooth_10k_80_1.jsonl",
-      "label_map": "/ocean/projects/cis240120p/emilian/triage_data/f8_v1/train/f8_odvg_labelmap.json",
+      "root": "/ocean/projects/cis240120p/emilian/triage_data/lm_ir/10k_80_1_blood_person/train/images",
+      "anno": "/ocean/projects/cis240120p/emilian/triage_data/lm_ir/10k_80_1_blood_person/odvg/lm_ws2_ir_odvg_train_smooth_10k_80_1.jsonl",
+      "label_map": "/ocean/projects/cis240120p/emilian/triage_data/lm_ir/10k_80_1_blood_person/odvg/lm_ws2_labelmap.json",
       "dataset_mode": "odvg"
     }
   ],
   "val": [
     {
-      "root": "/ocean/projects/cis240120p/emilian/triage_data/f8_v1/eval/images",
-      "anno": "/ocean/projects/cis240120p/emilian/triage_data/f8_v1/eval/f8_coco_smooth_10k_80_1.json",
+      "root": "/ocean/projects/cis240120p/emilian/triage_data/lm_ir/10k_80_1_blood_person/val/images",
+      "anno": "/ocean/projects/cis240120p/emilian/triage_data/lm_ir/10k_80_1_blood_person/odvg/lm_ws2_ir_coco_val_smooth_10k_80_1.json",
       "label_map": null,
       "dataset_mode": "coco"
     }
