@@ -1,7 +1,7 @@
 GPU_NUM="1"
-CFG="config/cfg_odvg.py"
+CFG="config/cfg_odvg_2.py"
 DATASETS="config/datasets_mixed_odvg.json"
-OUTPUT_DIR="/ocean/projects/cis240120p/emilian/triage_data/models/open-gdino-outputs/lm-ir-v1-10k_80_1"
+OUTPUT_DIR="/ocean/projects/cis240120p/emilian/triage_data/models/open-gdino-outputs/darpa-ir-v1-1k_20_1"
 NNODES=${NNODES:-1}
 NODE_RANK=${NODE_RANK:-0}
 PORT=${PORT:-29500}
